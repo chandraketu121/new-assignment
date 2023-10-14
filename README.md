@@ -1,12 +1,17 @@
 # new-assignment
 #STEP 1
+
 -create ubuntu server/Linux server on AWS cloud
-#STEP 2 
+
+#STEP 2
+
 -- connect to MobaXtreme
 -- update the server
 $sudo apt-get update(ubuntu server)
 $sudo yum update -y (linux server)
-#STEP 3  
+
+#STEP 3 
+
 --install jenkins in ubuntu server
   
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
@@ -27,6 +32,7 @@ sudo apt-get install jenkins
 install git,docker.io,docker-compose
 
 ===============================
+
 With Public IP and port 8080 open in new window broser 
 
 In security group we have to enable port number 8080 and 8000 also for docker container
