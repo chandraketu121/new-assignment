@@ -1,12 +1,12 @@
 # new-assignment
-STEP 1
+#STEP 1
 -create ubuntu server/Linux server on AWS cloud
-STEP 2 
+#STEP 2 
 -- connect to MobaXtreme
 -- update the server
 $sudo apt-get update(ubuntu server)
 $sudo yum update -y (linux server)
-STEP 4  
+#STEP 3  
 --install jenkins in ubuntu server
   
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
@@ -23,8 +23,6 @@ sudo apt-get install jenkins
 
     yum install fontconfig java-11-openjdk
     yum install jenkins
-
-
 
 install git,docker.io,docker-compose
 
