@@ -6,8 +6,11 @@
 #STEP 2
 
 -- connect to MobaXtreme
+
 -- update the server
+
 $sudo apt-get update(ubuntu server)
+
 $sudo yum update -y (linux server)
 
 #STEP 3 
